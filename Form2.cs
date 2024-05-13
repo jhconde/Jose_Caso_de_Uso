@@ -22,8 +22,8 @@ namespace Jose_Caso_de_Uso
             clienteTextbox.Text = orden.Cliente;
             estadoCombobox.Text = orden.Estado.ToString();
             listoEntregaCheckbox.Checked = orden.ListoParaEntrega;
-            fechaCreacionDatepicker.Value = orden.FechaCreacion;
             fechaModicacionDatepicker.Value = orden.FechaModificacion;
+            fechaCreacionDatepicker.Value = orden.FechaCreacion;
         }
 
         private void button2_Click(object sender, EventArgs e)
